@@ -13,6 +13,8 @@
 		B58739232680A660003EBB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58739212680A660003EBB4B /* Main.storyboard */; };
 		B58739252680A671003EBB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58739242680A671003EBB4B /* Assets.xcassets */; };
 		B58739282680A671003EBB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58739262680A671003EBB4B /* LaunchScreen.storyboard */; };
+		B58739312680A8D5003EBB4B /* EcommerceJson.json in Resources */ = {isa = PBXBuildFile; fileRef = B58739302680A8D5003EBB4B /* EcommerceJson.json */; };
+		B58739342680A94B003EBB4B /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58739332680A94B003EBB4B /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B58739242680A671003EBB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58739272680A671003EBB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58739292680A671003EBB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58739302680A8D5003EBB4B /* EcommerceJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EcommerceJson.json; sourceTree = "<group>"; };
+		B58739332680A94B003EBB4B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				B587391B2680A660003EBB4B /* AppDelegate.swift */,
 				B587391D2680A660003EBB4B /* SceneDelegate.swift */,
 				B587391F2680A660003EBB4B /* ViewController.swift */,
+				B58739302680A8D5003EBB4B /* EcommerceJson.json */,
 				B58739212680A660003EBB4B /* Main.storyboard */,
 				B58739242680A671003EBB4B /* Assets.xcassets */,
 				B58739262680A671003EBB4B /* LaunchScreen.storyboard */,
 				B58739292680A671003EBB4B /* Info.plist */,
+				B58739332680A94B003EBB4B /* ProductModel.swift */,
 			);
 			path = EcommarceUI;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58739312680A8D5003EBB4B /* EcommerceJson.json in Resources */,
 				B58739282680A671003EBB4B /* LaunchScreen.storyboard in Resources */,
 				B58739252680A671003EBB4B /* Assets.xcassets in Resources */,
 				B58739232680A660003EBB4B /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 				B58739202680A660003EBB4B /* ViewController.swift in Sources */,
 				B587391C2680A660003EBB4B /* AppDelegate.swift in Sources */,
 				B587391E2680A660003EBB4B /* SceneDelegate.swift in Sources */,
+				B58739342680A94B003EBB4B /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
